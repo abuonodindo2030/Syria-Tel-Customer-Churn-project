@@ -9,7 +9,7 @@ By leveraging behavioral, billing, and service interaction data, we develop a ma
 
 
 
-## 👥 Stakeholder Audience
+##  Stakeholder Audience
 
 - **SyriaTel’s Executive Leadership**: Seeking cost-saving strategies and revenue retention.  
 - **Customer Retention & Marketing Teams**: Need actionable insights for targeted retention campaigns.  
@@ -18,7 +18,7 @@ By leveraging behavioral, billing, and service interaction data, we develop a ma
 
 
 
-## 📊 Dataset Description
+##  Dataset Description
 
 The dataset consists of **3,333 customer records** with **21 features**, including:
 
@@ -37,7 +37,7 @@ The dataset consists of **3,333 customer records** with **21 features**, includi
 
 
 
-## 🔬 Modeling Methodology
+##  Modeling Methodology
 
 ### 1. Exploratory Data Analysis (EDA)
 - Analyzed churn distribution, feature correlations, and significance  
@@ -63,7 +63,7 @@ Trained and evaluated the following models:
 
 
 
-## 📈 Evaluation Results
+##  Evaluation Results
 
 Each model was evaluated using **5-fold stratified cross-validation** on unseen data.  
 **Metrics**: Precision, Recall, F1 Score, ROC-AUC
@@ -83,7 +83,7 @@ Each model was evaluated using **5-fold stratified cross-validation** on unseen 
 - Achieved **perfect precision** and **strong recall**  
 - Identified genuine churners with **no false positives**
 
-###  Top Feature Importances:
+### 🔍 Top Feature Importances:
 1. `total_charge`  
 2. `customer_service_calls`  
 3. `number_vmail_messages`  
