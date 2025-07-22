@@ -25,6 +25,7 @@ Notable attributes:
 
 
 **Modeling**
+
 *Methodology*
 We followed a structured pipeline:
 1.	Exploratory Data Analysis (EDA)
@@ -46,6 +47,7 @@ Optimized Gradient Boosting parameters using RandomizedSearchCV.
 
  *Evaluation*
 Each model was assessed using 5-fold stratified cross-validation and tested on unseen data. Metrics included:
+
 Model	Precision	Recall	F1 Score	ROC-AUC
 Logistic Regression	34.1%	74.2%	46.8%	0.819
 Random Forest	100.0%			0.922
@@ -55,6 +57,7 @@ Decision Tree	81.9%	79.4%	80.6%	0.882
 
 
 *Final Model: Gradient Boosting (Tuned)*
+
 •	ROC-AUC improved to 0.937 after tuning.
 •	Achieved perfect precision and strong recall, identifying genuine churners without false positives.
  Feature importance highlighted:
