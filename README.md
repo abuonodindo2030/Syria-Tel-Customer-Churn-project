@@ -83,7 +83,7 @@ Each model was evaluated using **5-fold stratified cross-validation** on unseen 
 - Achieved **perfect precision** and **strong recall**  
 - Identified genuine churners with **no false positives**
 
-### 🔍 Top Feature Importances:
+###  Top Feature Importances:
 1. `total_charge`  
 2. `customer_service_calls`  
 3. `number_vmail_messages`  
